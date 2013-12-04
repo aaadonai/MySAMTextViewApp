@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A39DDBD5184EEB5B0005A068 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39DDBD4184EEB5B0005A068 /* Foundation.framework */; };
+		A39DDBD7184EEB5B0005A068 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39DDBD6184EEB5B0005A068 /* CoreGraphics.framework */; };
+		A39DDBD9184EEB5B0005A068 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39DDBD8184EEB5B0005A068 /* UIKit.framework */; };
+		A39DDBDF184EEB5B0005A068 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A39DDBDD184EEB5B0005A068 /* InfoPlist.strings */; };
+		A39DDBE1184EEB5B0005A068 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A39DDBE0184EEB5B0005A068 /* main.m */; };
+		A39DDBE5184EEB5B0005A068 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A39DDBE4184EEB5B0005A068 /* AppDelegate.m */; };
+		A39DDBE8184EEB5B0005A068 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A39DDBE6184EEB5B0005A068 /* Main.storyboard */; };
+		A39DDBEB184EEB5B0005A068 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A39DDBEA184EEB5B0005A068 /* ViewController.m */; };
+		A39DDBED184EEB5B0005A068 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A39DDBEC184EEB5B0005A068 /* Images.xcassets */; };
+		A39DDBF4184EEB5B0005A068 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39DDBF3184EEB5B0005A068 /* XCTest.framework */; };
+		A39DDBF5184EEB5B0005A068 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39DDBD4184EEB5B0005A068 /* Foundation.framework */; };
+		A39DDBF6184EEB5B0005A068 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39DDBD8184EEB5B0005A068 /* UIKit.framework */; };
+		A39DDBFE184EEB5B0005A068 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A39DDBFC184EEB5B0005A068 /* InfoPlist.strings */; };
+		A39DDC00184EEB5B0005A068 /* MySAMTextViewAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A39DDBFF184EEB5B0005A068 /* MySAMTextViewAppTests.m */; };
+		A39DDC0C184EEBBC0005A068 /* SAMTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A39DDC0B184EEBBC0005A068 /* SAMTextView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A39DDBF7184EEB5B0005A068 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A39DDBC9184EEB5B0005A068 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A39DDBD0184EEB5B0005A068;
+			remoteInfo = MySAMTextViewApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A39DDBD1184EEB5B0005A068 /* MySAMTextViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySAMTextViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A39DDBD4184EEB5B0005A068 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A39DDBD6184EEB5B0005A068 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A39DDBD8184EEB5B0005A068 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A39DDBDC184EEB5B0005A068 /* MySAMTextViewApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MySAMTextViewApp-Info.plist"; sourceTree = "<group>"; };
+		A39DDBDE184EEB5B0005A068 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A39DDBE0184EEB5B0005A068 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A39DDBE2184EEB5B0005A068 /* MySAMTextViewApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MySAMTextViewApp-Prefix.pch"; sourceTree = "<group>"; };
+		A39DDBE3184EEB5B0005A068 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A39DDBE4184EEB5B0005A068 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A39DDBE7184EEB5B0005A068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A39DDBE9184EEB5B0005A068 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A39DDBEA184EEB5B0005A068 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A39DDBEC184EEB5B0005A068 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A39DDBF2184EEB5B0005A068 /* MySAMTextViewAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySAMTextViewAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A39DDBF3184EEB5B0005A068 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A39DDBFB184EEB5B0005A068 /* MySAMTextViewAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MySAMTextViewAppTests-Info.plist"; sourceTree = "<group>"; };
+		A39DDBFD184EEB5B0005A068 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A39DDBFF184EEB5B0005A068 /* MySAMTextViewAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySAMTextViewAppTests.m; sourceTree = "<group>"; };
+		A39DDC0A184EEBBC0005A068 /* SAMTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMTextView.h; sourceTree = "<group>"; };
+		A39DDC0B184EEBBC0005A068 /* SAMTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMTextView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A39DDBCE184EEB5B0005A068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39DDBD7184EEB5B0005A068 /* CoreGraphics.framework in Frameworks */,
+				A39DDBD9184EEB5B0005A068 /* UIKit.framework in Frameworks */,
+				A39DDBD5184EEB5B0005A068 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A39DDBEF184EEB5B0005A068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39DDBF4184EEB5B0005A068 /* XCTest.framework in Frameworks */,
+				A39DDBF6184EEB5B0005A068 /* UIKit.framework in Frameworks */,
+				A39DDBF5184EEB5B0005A068 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A39DDBC8184EEB5B0005A068 = {
+			isa = PBXGroup;
+			children = (
+				A39DDBDA184EEB5B0005A068 /* MySAMTextViewApp */,
+				A39DDBF9184EEB5B0005A068 /* MySAMTextViewAppTests */,
+				A39DDBD3184EEB5B0005A068 /* Frameworks */,
+				A39DDBD2184EEB5B0005A068 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A39DDBD2184EEB5B0005A068 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A39DDBD1184EEB5B0005A068 /* MySAMTextViewApp.app */,
+				A39DDBF2184EEB5B0005A068 /* MySAMTextViewAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A39DDBD3184EEB5B0005A068 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A39DDBD4184EEB5B0005A068 /* Foundation.framework */,
+				A39DDBD6184EEB5B0005A068 /* CoreGraphics.framework */,
+				A39DDBD8184EEB5B0005A068 /* UIKit.framework */,
+				A39DDBF3184EEB5B0005A068 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A39DDBDA184EEB5B0005A068 /* MySAMTextViewApp */ = {
+			isa = PBXGroup;
+			children = (
+				A39DDC09184EEBA00005A068 /* Lib */,
+				A39DDBE3184EEB5B0005A068 /* AppDelegate.h */,
+				A39DDBE4184EEB5B0005A068 /* AppDelegate.m */,
+				A39DDBE6184EEB5B0005A068 /* Main.storyboard */,
+				A39DDBE9184EEB5B0005A068 /* ViewController.h */,
+				A39DDBEA184EEB5B0005A068 /* ViewController.m */,
+				A39DDBEC184EEB5B0005A068 /* Images.xcassets */,
+				A39DDBDB184EEB5B0005A068 /* Supporting Files */,
+			);
+			path = MySAMTextViewApp;
+			sourceTree = "<group>";
+		};
+		A39DDBDB184EEB5B0005A068 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A39DDBDC184EEB5B0005A068 /* MySAMTextViewApp-Info.plist */,
+				A39DDBDD184EEB5B0005A068 /* InfoPlist.strings */,
+				A39DDBE0184EEB5B0005A068 /* main.m */,
+				A39DDBE2184EEB5B0005A068 /* MySAMTextViewApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A39DDBF9184EEB5B0005A068 /* MySAMTextViewAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A39DDBFF184EEB5B0005A068 /* MySAMTextViewAppTests.m */,
+				A39DDBFA184EEB5B0005A068 /* Supporting Files */,
+			);
+			path = MySAMTextViewAppTests;
+			sourceTree = "<group>";
+		};
+		A39DDBFA184EEB5B0005A068 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A39DDBFB184EEB5B0005A068 /* MySAMTextViewAppTests-Info.plist */,
+				A39DDBFC184EEB5B0005A068 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A39DDC09184EEBA00005A068 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				A39DDC0A184EEBBC0005A068 /* SAMTextView.h */,
+				A39DDC0B184EEBBC0005A068 /* SAMTextView.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A39DDBD0184EEB5B0005A068 /* MySAMTextViewApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A39DDC03184EEB5B0005A068 /* Build configuration list for PBXNativeTarget "MySAMTextViewApp" */;
+			buildPhases = (
+				A39DDBCD184EEB5B0005A068 /* Sources */,
+				A39DDBCE184EEB5B0005A068 /* Frameworks */,
+				A39DDBCF184EEB5B0005A068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySAMTextViewApp;
+			productName = MySAMTextViewApp;
+			productReference = A39DDBD1184EEB5B0005A068 /* MySAMTextViewApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A39DDBF1184EEB5B0005A068 /* MySAMTextViewAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A39DDC06184EEB5B0005A068 /* Build configuration list for PBXNativeTarget "MySAMTextViewAppTests" */;
+			buildPhases = (
+				A39DDBEE184EEB5B0005A068 /* Sources */,
+				A39DDBEF184EEB5B0005A068 /* Frameworks */,
+				A39DDBF0184EEB5B0005A068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A39DDBF8184EEB5B0005A068 /* PBXTargetDependency */,
+			);
+			name = MySAMTextViewAppTests;
+			productName = MySAMTextViewAppTests;
+			productReference = A39DDBF2184EEB5B0005A068 /* MySAMTextViewAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A39DDBC9184EEB5B0005A068 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = MyApp;
+				TargetAttributes = {
+					A39DDBF1184EEB5B0005A068 = {
+						TestTargetID = A39DDBD0184EEB5B0005A068;
+					};
+				};
+			};
+			buildConfigurationList = A39DDBCC184EEB5B0005A068 /* Build configuration list for PBXProject "MySAMTextViewApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A39DDBC8184EEB5B0005A068;
+			productRefGroup = A39DDBD2184EEB5B0005A068 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A39DDBD0184EEB5B0005A068 /* MySAMTextViewApp */,
+				A39DDBF1184EEB5B0005A068 /* MySAMTextViewAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A39DDBCF184EEB5B0005A068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39DDBED184EEB5B0005A068 /* Images.xcassets in Resources */,
+				A39DDBDF184EEB5B0005A068 /* InfoPlist.strings in Resources */,
+				A39DDBE8184EEB5B0005A068 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A39DDBF0184EEB5B0005A068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39DDBFE184EEB5B0005A068 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A39DDBCD184EEB5B0005A068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39DDBEB184EEB5B0005A068 /* ViewController.m in Sources */,
+				A39DDC0C184EEBBC0005A068 /* SAMTextView.m in Sources */,
+				A39DDBE5184EEB5B0005A068 /* AppDelegate.m in Sources */,
+				A39DDBE1184EEB5B0005A068 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A39DDBEE184EEB5B0005A068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39DDC00184EEB5B0005A068 /* MySAMTextViewAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A39DDBF8184EEB5B0005A068 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A39DDBD0184EEB5B0005A068 /* MySAMTextViewApp */;
+			targetProxy = A39DDBF7184EEB5B0005A068 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A39DDBDD184EEB5B0005A068 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A39DDBDE184EEB5B0005A068 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A39DDBE6184EEB5B0005A068 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A39DDBE7184EEB5B0005A068 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A39DDBFC184EEB5B0005A068 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A39DDBFD184EEB5B0005A068 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A39DDC01184EEB5B0005A068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A39DDC02184EEB5B0005A068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A39DDC04184EEB5B0005A068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySAMTextViewApp/MySAMTextViewApp-Prefix.pch";
+				INFOPLIST_FILE = "MySAMTextViewApp/MySAMTextViewApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A39DDC05184EEB5B0005A068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySAMTextViewApp/MySAMTextViewApp-Prefix.pch";
+				INFOPLIST_FILE = "MySAMTextViewApp/MySAMTextViewApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A39DDC07184EEB5B0005A068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MySAMTextViewApp.app/MySAMTextViewApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySAMTextViewApp/MySAMTextViewApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MySAMTextViewAppTests/MySAMTextViewAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A39DDC08184EEB5B0005A068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MySAMTextViewApp.app/MySAMTextViewApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySAMTextViewApp/MySAMTextViewApp-Prefix.pch";
+				INFOPLIST_FILE = "MySAMTextViewAppTests/MySAMTextViewAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A39DDBCC184EEB5B0005A068 /* Build configuration list for PBXProject "MySAMTextViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A39DDC01184EEB5B0005A068 /* Debug */,
+				A39DDC02184EEB5B0005A068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A39DDC03184EEB5B0005A068 /* Build configuration list for PBXNativeTarget "MySAMTextViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A39DDC04184EEB5B0005A068 /* Debug */,
+				A39DDC05184EEB5B0005A068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A39DDC06184EEB5B0005A068 /* Build configuration list for PBXNativeTarget "MySAMTextViewAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A39DDC07184EEB5B0005A068 /* Debug */,
+				A39DDC08184EEB5B0005A068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A39DDBC9184EEB5B0005A068 /* Project object */;
+}
